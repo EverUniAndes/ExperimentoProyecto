@@ -1,0 +1,12 @@
+C:\Fuentes\Otros\ExperimentoProyecto\Pedidos\Pedidos.Dominio\bin\Debug\net8.0\Pedidos.Dominio.deps.json
+C:\Fuentes\Otros\ExperimentoProyecto\Pedidos\Pedidos.Dominio\bin\Debug\net8.0\Pedidos.Dominio.dll
+C:\Fuentes\Otros\ExperimentoProyecto\Pedidos\Pedidos.Dominio\bin\Debug\net8.0\Pedidos.Dominio.pdb
+C:\Fuentes\Otros\ExperimentoProyecto\Pedidos\Pedidos.Dominio\obj\Debug\net8.0\Pedidos.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fuentes\Otros\ExperimentoProyecto\Pedidos\Pedidos.Dominio\obj\Debug\net8.0\Pedidos.Dominio.AssemblyInfoInputs.cache
+C:\Fuentes\Otros\ExperimentoProyecto\Pedidos\Pedidos.Dominio\obj\Debug\net8.0\Pedidos.Dominio.AssemblyInfo.cs
+C:\Fuentes\Otros\ExperimentoProyecto\Pedidos\Pedidos.Dominio\obj\Debug\net8.0\Pedidos.Dominio.csproj.CoreCompileInputs.cache
+C:\Fuentes\Otros\ExperimentoProyecto\Pedidos\Pedidos.Dominio\obj\Debug\net8.0\Pedidos.Dominio.sourcelink.json
+C:\Fuentes\Otros\ExperimentoProyecto\Pedidos\Pedidos.Dominio\obj\Debug\net8.0\Pedidos.Dominio.dll
+C:\Fuentes\Otros\ExperimentoProyecto\Pedidos\Pedidos.Dominio\obj\Debug\net8.0\refint\Pedidos.Dominio.dll
+C:\Fuentes\Otros\ExperimentoProyecto\Pedidos\Pedidos.Dominio\obj\Debug\net8.0\Pedidos.Dominio.pdb
+C:\Fuentes\Otros\ExperimentoProyecto\Pedidos\Pedidos.Dominio\obj\Debug\net8.0\ref\Pedidos.Dominio.dll
