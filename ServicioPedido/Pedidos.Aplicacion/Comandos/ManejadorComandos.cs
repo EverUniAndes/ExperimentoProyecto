@@ -3,6 +3,7 @@ using AutoMapper;
 using Pedidos.Aplicacion.Dto;
 using Pedidos.Aplicacion.Enum;
 using Pedidos.Dominio.Entidades;
+using Pedidos.Dominio.Puertos.Repositorios;
 using Pedidos.Dominio.Servicios;
 using System.Net;
 
@@ -12,9 +13,9 @@ namespace Pedidos.Aplicacion.Comandos
     {
         private readonly CrearPedido _crearPedido;
         private readonly IMapper _mapeador;
-        public ManejadorComandos(CrearPedido crearPedido, IMapper mapeador)
+        public ManejadorComandos(IPedidoRepositorio pedidoRepositorio, IMapper mapeador)
         {
-            _crearPedido = crearPedido;
+            _crearPedido = new CrearPedido(pedidoRepositorio);
             _mapeador = mapeador;
         }
         public async  Task<BaseOut> CrearPedido(PedidoIn pedido)

@@ -2,6 +2,7 @@
 using AutoMapper;
 using Pedidos.Aplicacion.Dto;
 using Pedidos.Aplicacion.Enum;
+using Pedidos.Dominio.Puertos.Repositorios;
 using Pedidos.Dominio.Servicios;
 using System.Net;
 
@@ -13,10 +14,10 @@ namespace Pedidos.Aplicacion.Consultas
         private readonly ListadoPedido _listadoPedido;
         private readonly IMapper _mapeador;
 
-        public ManejadorConsultas(ObtenerPedido obtenerPedido, ListadoPedido listadoPedido, IMapper mapeador)
+        public ManejadorConsultas(IPedidoRepositorio pedidoRepositorio, IMapper mapeador)
         {
-            _obtenerPedido = obtenerPedido;
-            _listadoPedido = listadoPedido;
+            _obtenerPedido = new ObtenerPedido(pedidoRepositorio);
+            _listadoPedido = new ListadoPedido(pedidoRepositorio);
             _mapeador = mapeador;
         }
         public async Task<PedidoOut> ObtenerPedido(Guid id)

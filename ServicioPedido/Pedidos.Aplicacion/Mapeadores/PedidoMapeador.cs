@@ -18,7 +18,6 @@ namespace Pedidos.Aplicacion.Mapeadores
             CreateMap<Pedido, PedidoIn>()
                 .ForMember(dest => dest.Producto, opt => opt.MapFrom(src => src.Producto))
                 .ForMember(dest => dest.Valor, opt => opt.MapFrom(src => src.Valor))
-                .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id))
                 .ReverseMap();
 
         }

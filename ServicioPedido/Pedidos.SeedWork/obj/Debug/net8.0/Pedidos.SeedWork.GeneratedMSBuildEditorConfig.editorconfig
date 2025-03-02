@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Pedidos.SeedWork
-build_property.ProjectDir = /mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.SeedWork/
+build_property.ProjectDir = C:\Fuentes\Otros\ExperimentoProyecto\ServicioPedido\Pedidos.SeedWork\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

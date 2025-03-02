@@ -2,15 +2,16 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Pedidos.Dominio.Entidades;
-using Pedidos.SeedWork.RepositorioGenerico;
+using Pedidos.Infraestructura.RepositorioGenerico;
+
 
 namespace Pedidos.Infraestructura.Adaptadores.Repositorios
 {
-    public class Repositorio<T> : IRepositorioBase<T> where T : EntidadBase
+    public class RepositorioBase<T> : IRepositorioBase<T> where T : EntidadBase
     {
         private readonly IServiceProvider _serviceProvider;
 
-        public Repositorio(IServiceProvider serviceProvider)
+        public RepositorioBase(IServiceProvider serviceProvider)
         {
             _serviceProvider = serviceProvider;
         }

@@ -15,10 +15,7 @@ namespace Pedidos.Infraestructura.Adaptadores.Repositorios
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlite("Data Source=pedidos.db");
-            }
+            optionsBuilder.UseSqlite("Data Source=pedidos.db");
         }
 
     }
