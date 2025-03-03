@@ -1,7 +1,7 @@
 ﻿
 using Pedidos.Dominio.Entidades;
 using Pedidos.Dominio.Puertos.Repositorios;
-using Pedidos.SeedWork.RepositorioGenerico;
+using Pedidos.Infraestructura.RepositorioGenerico;
 
 namespace Pedidos.Infraestructura.Adaptadores.Repositorios
 {

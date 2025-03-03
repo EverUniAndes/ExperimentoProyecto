@@ -2,6 +2,7 @@
 using AutoMapper;
 using Pedidos.Aplicacion.Dto;
 using Pedidos.Aplicacion.Enum;
+using Pedidos.Dominio.Puertos.Repositorios;
 using Pedidos.Dominio.Servicios;
 using System.Net;
 
@@ -13,10 +14,10 @@ namespace Pedidos.Aplicacion.Consultas
         private readonly ListadoPedido _listadoPedido;
         private readonly IMapper _mapeador;
 
-        public ManejadorConsultas(ObtenerPedido obtenerPedido, ListadoPedido listadoPedido, IMapper mapeador)
+        public ManejadorConsultas(IPedidoRepositorio pedidoRepositorio, IMapper mapeador)
         {
-            _obtenerPedido = obtenerPedido;
-            _listadoPedido = listadoPedido;
+            _obtenerPedido = new ObtenerPedido(pedidoRepositorio);
+            _listadoPedido = new ListadoPedido(pedidoRepositorio);
             _mapeador = mapeador;
         }
         public async Task<PedidoOut> ObtenerPedido(Guid id)
@@ -54,15 +55,17 @@ namespace Pedidos.Aplicacion.Consultas
 
         public async Task<ListaPedidoOut> ObtenerPedidos()
         {
-            ListaPedidoOut output = new ();
-            
+            ListaPedidoOut output = new()
+            {
+                Pedidos = []
+            };
             try 
             {
-                var pedidos = await _listadoPedido.Ejecutar();
+                var listadoPedidos = await _listadoPedido.Ejecutar();
 
-                if (pedidos.Count > 0)
+                if (listadoPedidos.Count > 0)
                 {
-                    pedidos.ForEach(pedido => output.Pedidos.Add(_mapeador.Map<PedidoDto>(pedido)));
+                    listadoPedidos.ForEach(pedido => output.Pedidos.Add(_mapeador.Map<PedidoDto>(pedido)));
                     output.Resultado = Resultado.Exitoso;
                     output.Mensaje = "Pedidos encontrados";
                     output.Status = HttpStatusCode.OK;

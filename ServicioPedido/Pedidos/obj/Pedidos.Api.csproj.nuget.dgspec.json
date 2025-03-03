@@ -1,28 +1,92 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Fuentes\\Otros\\ExperimentoProyecto\\ServicioPedido\\Pedidos\\Pedidos.Api.csproj": {}
+    "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos/Pedidos.Api.csproj": {}
   },
   "projects": {
-    "C:\\Fuentes\\Otros\\ExperimentoProyecto\\ServicioPedido\\Pedidos\\Pedidos.Api.csproj": {
+    "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Aplicacion/Pedidos.Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fuentes\\Otros\\ExperimentoProyecto\\ServicioPedido\\Pedidos\\Pedidos.Api.csproj",
-        "projectName": "Pedidos.Api",
-        "projectPath": "C:\\Fuentes\\Otros\\ExperimentoProyecto\\ServicioPedido\\Pedidos\\Pedidos.Api.csproj",
-        "packagesPath": "C:\\Users\\eomartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Fuentes\\Otros\\ExperimentoProyecto\\ServicioPedido\\Pedidos\\obj\\",
+        "projectUniqueName": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Aplicacion/Pedidos.Aplicacion.csproj",
+        "projectName": "Pedidos.Aplicacion",
+        "projectPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Aplicacion/Pedidos.Aplicacion.csproj",
+        "packagesPath": "/home/ever/.nuget/packages/",
+        "outputPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Aplicacion/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eomartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/ever/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/Pedidos.Dominio.csproj": {
+                "projectPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/Pedidos.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/Pedidos.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/Pedidos.Dominio.csproj",
+        "projectName": "Pedidos.Dominio",
+        "projectPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/Pedidos.Dominio.csproj",
+        "packagesPath": "/home/ever/.nuget/packages/",
+        "outputPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ever/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +99,129 @@
           "warnAsError": [
             "NU1605"
           ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Infraestructura/Pedidos.Infraestructura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Infraestructura/Pedidos.Infraestructura.csproj",
+        "projectName": "Pedidos.Infraestructura",
+        "projectPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Infraestructura/Pedidos.Infraestructura.csproj",
+        "packagesPath": "/home/ever/.nuget/packages/",
+        "outputPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Infraestructura/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ever/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
         },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/Pedidos.Dominio.csproj": {
+                "projectPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/Pedidos.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos/Pedidos.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos/Pedidos.Api.csproj",
+        "projectName": "Pedidos.Api",
+        "projectPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos/Pedidos.Api.csproj",
+        "packagesPath": "/home/ever/.nuget/packages/",
+        "outputPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ever/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Aplicacion/Pedidos.Aplicacion.csproj": {
+                "projectPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Aplicacion/Pedidos.Aplicacion.csproj"
+              },
+              "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Infraestructura/Pedidos.Infraestructura.csproj": {
+                "projectPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Infraestructura/Pedidos.Infraestructura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
         }
       },
       "frameworks": {
@@ -49,6 +231,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.21.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -74,7 +260,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

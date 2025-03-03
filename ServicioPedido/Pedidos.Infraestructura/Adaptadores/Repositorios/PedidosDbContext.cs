@@ -12,5 +12,6 @@ namespace Pedidos.Infraestructura.Adaptadores.Repositorios
         }
 
         public DbSet<Pedido> Pedidos { get; set; }
+
     }
 }
