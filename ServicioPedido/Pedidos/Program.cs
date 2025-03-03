@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen(options =>
     {
         Version = "V.1.0.1",
         Title = "Servicio Pedidos",
-        Description = "Administración de pedidos"
+        Description = "Administraciï¿½n de pedidos"
     });
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
@@ -48,13 +48,11 @@ builder.Services.AddSwaggerGen(options =>
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddDbContext<PedidosDbContext>(options =>
-                options.UseSqlite(builder.Configuration.GetConnectionString("PedidosDbContext")), ServiceLifetime.Transient);
+                options.UseNpgsql(builder.Configuration.GetConnectionString("PedidosDbContext")), ServiceLifetime.Transient);
 builder.Services.AddTransient(typeof(IRepositorioBase<>), typeof(RepositorioBase<>));
 builder.Services.AddTransient<IPedidoRepositorio, PedidoRepositorio>();
 builder.Services.AddScoped<IComandosProducto, ManejadorComandos>();
 builder.Services.AddScoped<IConsultasProducto, ManejadorConsultas>();
-
-SQLitePCL.Batteries.Init();
 
 var app = builder.Build();
 app.UseSwagger();

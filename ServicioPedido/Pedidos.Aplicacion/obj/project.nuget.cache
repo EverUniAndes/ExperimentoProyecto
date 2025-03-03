@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ukEbhGKRzQQ=",
+  "dgSpecHash": "XVw60ss7WfXqQvdxFAaua+tQMo3FvrOD9vu+d0au/MGrEmxbiJDw6S0ys0Nb2EK7SKLnfDjmuSekXJwa7GLVow==",
   "success": true,
-  "projectFilePath": "C:\\Fuentes\\Otros\\ExperimentoProyecto\\ServicioPedido\\Pedidos.Aplicacion\\Pedidos.Aplicacion.csproj",
+  "projectFilePath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Aplicacion/Pedidos.Aplicacion.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\eomartinez\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.2\\microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.2\\microsoft.extensions.primitives.9.0.2.nupkg.sha512"
+    "/home/ever/.nuget/packages/automapper/14.0.0/automapper.14.0.0.nupkg.sha512",
+    "/home/ever/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.2/microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512",
+    "/home/ever/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/ever/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/home/ever/.nuget/packages/microsoft.extensions.primitives/9.0.2/microsoft.extensions.primitives.9.0.2.nupkg.sha512"
   ],
   "logs": []
 }

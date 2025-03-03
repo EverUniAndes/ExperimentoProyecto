@@ -17,7 +17,9 @@ namespace Pedidos.Controllers
     {
         private readonly IConsultasProducto _consultasPedidos;
         private readonly IComandosProducto _comandosPedido;    
-        
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public PedidosController(IConsultasProducto consultasPedidos, IComandosProducto comandosPedido)
         {
             _consultasPedidos = consultasPedidos;
