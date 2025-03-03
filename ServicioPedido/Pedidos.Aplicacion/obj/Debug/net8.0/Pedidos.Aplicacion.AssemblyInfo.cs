@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pedidos.Aplicacion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a4171a9ed7f2dede61fc965dfeb33ed492f9614")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92f22aeae8d4783552707fc362d546c0d095d20e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pedidos.Aplicacion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pedidos.Aplicacion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
