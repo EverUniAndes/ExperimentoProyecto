@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Infraestructura/Pedidos.Infraestructura.csproj": {}
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final I\\Proyecto\\ExperimentoProyecto\\ServicioPedido\\Pedidos.Infraestructura\\Pedidos.Infraestructura.csproj": {}
   },
   "projects": {
-    "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/Pedidos.Dominio.csproj": {
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final I\\Proyecto\\ExperimentoProyecto\\ServicioPedido\\Pedidos.Dominio\\Pedidos.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/Pedidos.Dominio.csproj",
+        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final I\\Proyecto\\ExperimentoProyecto\\ServicioPedido\\Pedidos.Dominio\\Pedidos.Dominio.csproj",
         "projectName": "Pedidos.Dominio",
-        "projectPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/Pedidos.Dominio.csproj",
-        "packagesPath": "/home/ever/.nuget/packages/",
-        "outputPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/obj/",
+        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final I\\Proyecto\\ExperimentoProyecto\\ServicioPedido\\Pedidos.Dominio\\Pedidos.Dominio.csproj",
+        "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
+        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final I\\Proyecto\\ExperimentoProyecto\\ServicioPedido\\Pedidos.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/ever/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\edw_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -53,34 +66,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Infraestructura/Pedidos.Infraestructura.csproj": {
+    "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final I\\Proyecto\\ExperimentoProyecto\\ServicioPedido\\Pedidos.Infraestructura\\Pedidos.Infraestructura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Infraestructura/Pedidos.Infraestructura.csproj",
+        "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final I\\Proyecto\\ExperimentoProyecto\\ServicioPedido\\Pedidos.Infraestructura\\Pedidos.Infraestructura.csproj",
         "projectName": "Pedidos.Infraestructura",
-        "projectPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Infraestructura/Pedidos.Infraestructura.csproj",
-        "packagesPath": "/home/ever/.nuget/packages/",
-        "outputPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Infraestructura/obj/",
+        "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final I\\Proyecto\\ExperimentoProyecto\\ServicioPedido\\Pedidos.Infraestructura\\Pedidos.Infraestructura.csproj",
+        "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
+        "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final I\\Proyecto\\ExperimentoProyecto\\ServicioPedido\\Pedidos.Infraestructura\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/ever/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\edw_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/Pedidos.Dominio.csproj": {
-                "projectPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/ServicioPedido/Pedidos.Dominio/Pedidos.Dominio.csproj"
+              "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final I\\Proyecto\\ExperimentoProyecto\\ServicioPedido\\Pedidos.Dominio\\Pedidos.Dominio.csproj": {
+                "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final I\\Proyecto\\ExperimentoProyecto\\ServicioPedido\\Pedidos.Dominio\\Pedidos.Dominio.csproj"
               }
             }
           }
@@ -89,7 +109,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -116,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

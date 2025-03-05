@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "h3SXANP753u64snUrcxdpFLYxa1xXgYVJ29B9pi/rvc=",
+  "Hash": "SeKSi2GJCou8Ly/crKa7zGmmpJyV8HFKR5WrG9Mik2Q=",
   "Source": "Pedidos.Api",
   "BasePath": "_content/Pedidos.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

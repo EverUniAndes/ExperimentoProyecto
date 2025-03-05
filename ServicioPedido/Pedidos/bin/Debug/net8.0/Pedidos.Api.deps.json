@@ -254,12 +254,18 @@
           "Pedidos.Dominio": "1.0.0"
         },
         "runtime": {
-          "Pedidos.Aplicacion.dll": {}
+          "Pedidos.Aplicacion.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Pedidos.Dominio/1.0.0": {
         "runtime": {
-          "Pedidos.Dominio.dll": {}
+          "Pedidos.Dominio.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Pedidos.Infraestructura/1.0.0": {
@@ -268,7 +274,10 @@
           "Pedidos.Dominio": "1.0.0"
         },
         "runtime": {
-          "Pedidos.Infraestructura.dll": {}
+          "Pedidos.Infraestructura.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
