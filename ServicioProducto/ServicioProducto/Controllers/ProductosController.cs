@@ -51,6 +51,32 @@ namespace ServicioProducto.Controllers
         }
 
         /// <summary>
+        /// Obtiene la lista de productos
+        /// </summary>
+        /// <response code="200"> 
+        /// ListaProductosOut pendiente
+        /// </response>
+        [HttpGet("{id}")]
+        [Route("Listar")]
+        [ProducesResponseType(typeof(ListaProductosOut), 200)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ValidationProblemDetails), 401)]
+        [ProducesResponseType(typeof(ValidationProblemDetails), 500)]
+        public async Task<IActionResult> ObtenerProducto(Guid id)
+        {
+            var output = await _consultasProducto.ObtenerProducto(id);
+
+            if (output.Resultado != Resultado.Error)
+            {
+                return Ok(output);
+            }
+            else
+            {
+                return Problem(output.Mensaje, statusCode: (int)output.Status);
+            }
+        }
+
+        /// <summary>
         /// Crear un producto
         /// </summary>
         /// /// <param name="input">

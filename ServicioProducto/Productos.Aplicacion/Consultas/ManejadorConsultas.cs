@@ -35,7 +35,7 @@ namespace Productos.Aplicacion.Consultas
                 }
                 else
                 {
-                    productoOut = _mapper.Map<ProductoOut>(producto);
+                    productoOut.Producto = _mapper.Map<ProductoDto>(producto);
                     productoOut.Resultado = Resultado.Exitoso;
                     productoOut.Mensaje = "Producto encontrado satisfactoriamente";
                     productoOut.Status = HttpStatusCode.OK;
