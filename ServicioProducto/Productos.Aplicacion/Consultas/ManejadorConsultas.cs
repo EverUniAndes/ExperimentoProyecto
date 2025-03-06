@@ -51,9 +51,39 @@ namespace Productos.Aplicacion.Consultas
             return productoOut;
         }
 
-        public Task<ListaProductosOut> ObtenerProductos()
+        public async Task<ListaProductosOut> ObtenerProductos()
         {
-            throw new NotImplementedException();
+            ListaProductosOut output = new()
+            {
+                Productos = []
+            };
+
+            try
+            {
+                var listadoProductos = await _listadoProductos.Ejecutar();
+
+                if(listadoProductos.Count > 0)
+                {
+                    listadoProductos.ForEach(producto => output.Productos.Add(_mapper.Map<ProductoDto>(producto)));
+                    output.Resultado = Resultado.Exitoso;
+                    output.Mensaje = "Productos encontrados";
+                    output.Status = HttpStatusCode.OK;
+                }
+                else
+                {
+                    output.Resultado = Resultado.SinRegistros;
+                    output.Mensaje = "No hay productosd disponibles";
+                    output.Status = HttpStatusCode.NoContent;
+                }
+            }
+            catch (Exception ex)
+            {
+                output.Resultado = Resultado.Error;
+                output.Mensaje = ex.Message;
+                output.Status = HttpStatusCode.InternalServerError;
+            }
+
+            return output;
         }
     }
 }
