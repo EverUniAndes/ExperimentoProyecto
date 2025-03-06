@@ -19,6 +19,7 @@ namespace Productos.Aplicacion.Mapeadores
             CreateMap<Producto, ProductoIn>()
                 .ForMember(dest => dest.Nombre, opt => opt.MapFrom(src => src.Nombre))
                 .ForMember(dest => dest.Descripcion, opt => opt.MapFrom(src => src.Descripcion))
+                .ForMember(dest => dest.IdProveedor, opt => opt.MapFrom(src => src.IdProveedor))
                 .ForMember(dest => dest.PrecioUnitario, opt => opt.MapFrom(src => src.PrecioUnitario))
                 .ReverseMap();
         }
