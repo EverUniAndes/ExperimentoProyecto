@@ -56,8 +56,13 @@ namespace Productos.Infraestructura.Adaptadores.RepositorioGenerico
         {
             if (!this.disposed && disposing)
             {
-                var ctx = GetContext();
-                ctx.Dispose();
+                try
+                {
+                    var ctx = GetContext();
+                    ctx.Dispose();
+                }
+                catch(Exception ex)
+                { }
             }
             this.disposed = true;
         }
