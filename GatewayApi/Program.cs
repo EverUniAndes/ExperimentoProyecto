@@ -1,13 +1,13 @@
 
 using Microsoft.OpenApi.Models;
-using NLog;
-using NLog.Web;
+//using NLog;
+//using NLog.Web;
 using System.Reflection;
 
-var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+//var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 
-try
-{
+//try
+//{
     var builder = WebApplication.CreateBuilder(args);
 
     builder.Services.AddControllers();
@@ -19,7 +19,7 @@ try
         {
             Version = "V.1.0.1",
             Title = "Gateway Api",
-            Description = "Descripción",
+            Description = "Descripciï¿½n",
         });
 
         var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
@@ -28,7 +28,7 @@ try
     });
 
     builder.Logging.ClearProviders();
-    builder.Host.UseNLog();
+    //builder.Host.UseNLog();
 
     var config = builder.Configuration.GetSection("ReverseProxy");
     builder.Services
@@ -60,13 +60,13 @@ try
     app.UseRequestTimeouts();
     app.MapReverseProxy();
     await app.RunAsync();
-}
-catch (Exception ex)
-{
-    logger.Error(ex, "Error inicializando program.cs");
-}
-finally
-{
-    LogManager.Shutdown();
-}
+//}
+//catch (Exception ex)
+//{
+    //logger.Error(ex, "Error inicializando program.cs");
+//}
+//finally
+//{
+//    LogManager.Shutdown();
+//}
 

@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Fuentes\\Otros\\GatewayApi\\GatewayApi.csproj": {}
+    "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/GatewayApi/GatewayApi.csproj": {}
   },
   "projects": {
-    "C:\\Fuentes\\Otros\\GatewayApi\\GatewayApi.csproj": {
+    "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/GatewayApi/GatewayApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fuentes\\Otros\\GatewayApi\\GatewayApi.csproj",
+        "projectUniqueName": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/GatewayApi/GatewayApi.csproj",
         "projectName": "GatewayApi",
-        "projectPath": "C:\\Fuentes\\Otros\\GatewayApi\\GatewayApi.csproj",
-        "packagesPath": "C:\\Users\\eomartinez\\.nuget\\packages\\",
-        "outputPath": "C:\\Fuentes\\Otros\\GatewayApi\\obj\\",
+        "projectPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/GatewayApi/GatewayApi.csproj",
+        "packagesPath": "/home/ever/.nuget/packages/",
+        "outputPath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/GatewayApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eomartinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/ever/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,29 +32,12 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.21.2, )"
-            },
-            "NLog": {
-              "target": "Package",
-              "version": "[5.4.0, )"
-            },
-            "NLog.Web.AspNetCore": {
-              "target": "Package",
-              "version": "[5.4.0, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[7.3.0, )"
@@ -86,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

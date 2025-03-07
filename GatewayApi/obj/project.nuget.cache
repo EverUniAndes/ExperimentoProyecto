@@ -1,28 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Ggo2y6v4w9Q=",
+  "dgSpecHash": "ZhbAsr/jF4No0bn0Yi6g+2xplmh364+BT3wYUBrp6IyDGlXR9SblEGuCAgNWHXtbPWw4Q2ITTxk5ikncusKeag==",
   "success": true,
-  "projectFilePath": "C:\\Fuentes\\Otros\\GatewayApi\\GatewayApi.csproj",
+  "projectFilePath": "/mnt/A4E2945BE2943410/Git/ExperimentoProyecto/GatewayApi/GatewayApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.openapi\\1.6.22\\microsoft.openapi.1.6.22.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.2\\microsoft.visualstudio.azure.containers.tools.targets.1.21.2.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\nlog\\5.4.0\\nlog.5.4.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\nlog.extensions.logging\\5.4.0\\nlog.extensions.logging.5.4.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\nlog.web.aspnetcore\\5.4.0\\nlog.web.aspnetcore.5.4.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\swashbuckle.aspnetcore\\7.3.0\\swashbuckle.aspnetcore.7.3.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\7.3.0\\swashbuckle.aspnetcore.swagger.7.3.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\7.3.0\\swashbuckle.aspnetcore.swaggergen.7.3.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\7.3.0\\swashbuckle.aspnetcore.swaggerui.7.3.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\system.io.hashing\\8.0.0\\system.io.hashing.8.0.0.nupkg.sha512",
-    "C:\\Users\\eomartinez\\.nuget\\packages\\yarp.reverseproxy\\2.2.0\\yarp.reverseproxy.2.2.0.nupkg.sha512"
+    "/home/ever/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/ever/.nuget/packages/microsoft.openapi/1.6.22/microsoft.openapi.1.6.22.nupkg.sha512",
+    "/home/ever/.nuget/packages/swashbuckle.aspnetcore/7.3.0/swashbuckle.aspnetcore.7.3.0.nupkg.sha512",
+    "/home/ever/.nuget/packages/swashbuckle.aspnetcore.swagger/7.3.0/swashbuckle.aspnetcore.swagger.7.3.0.nupkg.sha512",
+    "/home/ever/.nuget/packages/swashbuckle.aspnetcore.swaggergen/7.3.0/swashbuckle.aspnetcore.swaggergen.7.3.0.nupkg.sha512",
+    "/home/ever/.nuget/packages/swashbuckle.aspnetcore.swaggerui/7.3.0/swashbuckle.aspnetcore.swaggerui.7.3.0.nupkg.sha512",
+    "/home/ever/.nuget/packages/system.io.hashing/8.0.0/system.io.hashing.8.0.0.nupkg.sha512",
+    "/home/ever/.nuget/packages/yarp.reverseproxy/2.2.0/yarp.reverseproxy.2.2.0.nupkg.sha512"
   ],
   "logs": []
 }
