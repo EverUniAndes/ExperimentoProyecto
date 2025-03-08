@@ -12,6 +12,9 @@ namespace Productos.Dominio.Entidades
         [Column("descripcion")]
         public string Descripcion { get; set; }
 
+        [Column("url")]
+        public string Url { get; set; }
+
         [Column("idproveedor")]
         public Guid IdProveedor { get; set; }
 

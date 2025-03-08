@@ -1,6 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Productos.Dominio.Entidades
 {
@@ -14,6 +15,6 @@ namespace Productos.Dominio.Entidades
         public DateTime FechaCreacion { get; set; }
 
         [Column("fechaactualizacion", TypeName = "timestamp(6)")]
-        public DateTime FechaActualizacion { get; set; }
+        public DateTime? FechaActualizacion { get; set; }
     }
 }
